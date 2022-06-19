@@ -1,0 +1,59 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/dacan/dacan",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/more/more",
+            "style" :                                                                                    
+            {
+               "navigationStyle":"custom",
+               "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+			"selectedColor": "#ff655a",
+			"color": "#C0C0C0",
+			"list": [{
+				"text": "菜单",
+				"pagePath": "pages/index/index"
+				// "iconPath": "static/images/index_like.png",
+				// "selectedIconPath": "static/images/index_like_c.png"
+	 
+			}, 
+			{
+				"text": "打餐",
+				"pagePath": "pages/dacan/dacan"
+				// "iconPath": "static/images/index_like.png",
+				// "selectedIconPath": "static/images/index_like_c.png"
+				 
+			},
+			{
+				"text": "更多",
+				"pagePath": "pages/more/more"
+				// "iconPath": "./static/images/index_address.png",
+				// "selectedIconPath": "static/images/index_address_c.png"
+			}]
+		}
+}
